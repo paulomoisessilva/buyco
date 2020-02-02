@@ -1,0 +1,18 @@
+body {
+    width: 100vw;
+    margin: 0px -15px;
+}
+
+.card {
+    margin: 10px 5px;
+}
+
+.list-group-item:hover {
+    background-color: bisque;
+}
+
+.btn-buyco {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
