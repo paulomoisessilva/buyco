@@ -16,7 +16,7 @@ align-content: center;
 }
 
 .card{
-height: 370px;
+height: 300px;
 margin-top: auto;
 margin-bottom: auto;
 width: 400px;
@@ -88,10 +88,13 @@ color: white;
 margin-left: 4px;
 }
 
+#login{
+    display: none;
+}
+
 #loading{
     width: 115px;
     margin: auto;
-    display: none;
 }
 
 #loading img{
@@ -100,5 +103,10 @@ margin-left: 4px;
 
 #digite{
     color: tomato;
+    display: none;
+}
+
+#conteudo{
+    color:white;
     display: none;
 }

@@ -1,14 +1,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery.session@1.0.0/jquery.session.min.js"></script>
-<script src="session.js"></script>
-<script src="index.js"></script>
+
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
 <!DOCTYPE html>
 <html>
-
+<script>
+	$.support.cors = true;
+</script>
 <head>
 	<title>Consultores BuyCo.</title>
 	<!--Made with love by Mutiullah Samim -->
@@ -47,7 +47,7 @@
 						</div>
 						<span id="digite" class="small">Digite o código</span>
 						<div class="row align-items-center remember">
-							<input type="checkbox">Lembrar-me
+							<input id="sessão" type="checkbox">Lembrar-me
 						</div>
 						<div class="form-group">
 							<button class="btn float-right login_btn" onclick="entrar(event)">Entrar</button>
@@ -55,6 +55,9 @@
 					</form>
 					<div id="loading">
 						<img src="/assets/loading.gif" alt="">
+					</div>
+					<div id="conteudo">
+						Conteudo
 					</div>
 				</div>
 
@@ -67,5 +70,6 @@
 		</div>
 	</div>
 </body>
-
+<script src="session.js"></script>
+<script src="index.js"></script>
 </html>
