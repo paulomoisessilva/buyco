@@ -13,7 +13,6 @@ $(function(){
         $("#conteudo").show()
         $("#loading").hide()
     }else{
-        console.log("bbbbbb")
          $("#loading").hide()
          $("#login").show()
     }
